@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Sky gradient colors -->
+    <color name="sky_top">#FF4FC3F7</color>
+    <color name="sky_bottom">#FF81D4FA</color>
+
+    <!-- Ground / platform -->
+    <color name="ground_top">#FF66BB6A</color>
+    <color name="ground_body">#FF5D4037</color>
+
+    <!-- UI / HUD -->
+    <color name="hud_background">#CC000000</color>
+    <color name="hud_text">#FFFFFFFF</color>
+    <color name="score_color">#FFFFEB3B</color>
+    <color name="lives_color">#FFEF5350</color>
+
+    <!-- Question overlay -->
+    <color name="overlay_background">#E6001F3D</color>
+    <color name="overlay_text">#FFFFFFFF</color>
+    <color name="answer_normal">#FF1565C0</color>
+    <color name="answer_selected">#FFFFD54F</color>
+    <color name="answer_correct">#FF43A047</color>
+    <color name="answer_wrong">#FFE53935</color>
+    <color name="answer_text">#FFFFFFFF</color>
+
+    <!-- Gate -->
+    <color name="gate_color">#FFFF6F00</color>
+    <color name="gate_glow">#FFFFCA28</color>
+
+    <!-- Player character -->
+    <color name="player_body">#FFFFCA28</color>
+    <color name="player_outline">#FFFF6F00</color>
+
+    <!-- Background layers -->
+    <color name="bg_far_hills">#FF80DEEA</color>
+    <color name="bg_near_hills">#FFA5D6A7</color>
+
+    <!-- Menu -->
+    <color name="menu_bg">#FF0D47A1</color>
+    <color name="menu_title">#FFFFD54F</color>
+    <color name="menu_button_normal">#FF1565C0</color>
+    <color name="menu_button_focused">#FFFFD54F</color>
+    <color name="menu_button_text">#FFFFFFFF</color>
+    <color name="menu_button_focused_text">#FF000000</color>
+</resources>

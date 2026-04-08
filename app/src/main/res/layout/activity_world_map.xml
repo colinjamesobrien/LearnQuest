@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  World map screen — the Canvas-based WorldMapView is added programmatically.
+  This file just provides a full-screen container.
+-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/world_map_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A237E" />

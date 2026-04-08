@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LearnQuest</string>
+    <string name="menu_start">Start Game</string>
+    <string name="menu_math">Math Mode</string>
+    <string name="menu_reading">Reading Mode</string>
+    <string name="menu_mixed">Mixed Mode</string>
+    <string name="hud_score">Score: %d</string>
+    <string name="hud_level">Level %d</string>
+    <string name="question_correct">Great job! ⭐</string>
+    <string name="question_wrong">Try again!</string>
+    <string name="question_skip">Nice try! Keep going!</string>
+    <string name="game_over">Game Over</string>
+    <string name="level_complete">Level Complete!</string>
+    <string name="press_ok">Press OK to continue</string>
+    <string name="lives_label">Lives</string>
+</resources>

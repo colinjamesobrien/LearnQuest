@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base theme for the app (Leanback-compatible) -->
+    <style name="Theme.LearnQuest" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/menu_bg</item>
+        <item name="android:statusBarColor">@color/menu_bg</item>
+    </style>
+
+    <!-- Fullscreen theme used by GameActivity -->
+    <style name="Theme.LearnQuest.Fullscreen" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/sky_bottom</item>
+    </style>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/menu_bg"
+    android:padding="48dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/menu_title"
+        android:textSize="72sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Learn Math &amp; Reading!"
+        android:textColor="#FFBBDEFB"
+        android:textSize="28sp"
+        android:layout_marginBottom="64dp" />
+
+    <!-- Menu buttons — each is focusable for D-pad navigation -->
+    <Button
+        android:id="@+id/btn_mixed"
+        android:layout_width="400dp"
+        android:layout_height="72dp"
+        android:text="@string/menu_mixed"
+        android:textSize="24sp"
+        android:textColor="@color/menu_button_text"
+        android:backgroundTint="@color/menu_button_normal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginBottom="16dp"
+        android:stateListAnimator="@null" />
+
+    <Button
+        android:id="@+id/btn_math"
+        android:layout_width="400dp"
+        android:layout_height="72dp"
+        android:text="@string/menu_math"
+        android:textSize="24sp"
+        android:textColor="@color/menu_button_text"
+        android:backgroundTint="@color/menu_button_normal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginBottom="16dp"
+        android:stateListAnimator="@null" />
+
+    <Button
+        android:id="@+id/btn_reading"
+        android:layout_width="400dp"
+        android:layout_height="72dp"
+        android:text="@string/menu_reading"
+        android:textSize="24sp"
+        android:textColor="@color/menu_button_text"
+        android:backgroundTint="@color/menu_button_normal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:stateListAnimator="@null" />
+
+</LinearLayout>

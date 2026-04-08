@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple star icon for app launcher -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:fillColor="#FFFFD54F"
+        android:pathData="M24,4 L28.9,18.2 L44,18.2 L32.5,26.8 L36.9,41 L24,33 L11.1,41 L15.5,26.8 L4,18.2 L19.1,18.2 Z" />
+</vector>
